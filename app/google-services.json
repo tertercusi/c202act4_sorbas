@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "558235116472",
+    "project_id": "appdevactivity4",
+    "storage_bucket": "appdevactivity4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:558235116472:android:5184d3e43a293d5e45654d",
+        "android_client_info": {
+          "package_name": "com.example.c202cusirazonactivity4"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAZQrTcJyeeAZx9pW5HuU36c8CWpvPvbkw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
