@@ -2,6 +2,7 @@ package com.example.c202cusirazonactivity4;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.widget.Button;
 import android.widget.TextView;
 
 import androidx.appcompat.app.AppCompatActivity;
@@ -9,11 +10,10 @@ import androidx.appcompat.app.AppCompatActivity;
 import com.google.firebase.firestore.DocumentSnapshot;
 import com.google.firebase.firestore.FirebaseFirestore;
 
-import java.util.Objects;
-
 public class CheckoutActivity extends AppCompatActivity {
 
     FirebaseFirestore cusiRazonFirestore;
+    Button cusiRazonProceedButton;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -24,6 +24,7 @@ public class CheckoutActivity extends AppCompatActivity {
         String cusiRazonOrderReferenceId = cusiRazonIntent.getStringExtra("orderReference");
 
         cusiRazonFirestore = FirebaseFirestore.getInstance();
+        cusiRazonProceedButton = findViewById(R.id.cusiRazonProceedButton);
 
         TextView cusiRazonFullname = findViewById(R.id.cusiRazonFullname);
         TextView cusiRazonAddress = findViewById(R.id.cusiRazonAddressDisplay);
@@ -58,6 +59,10 @@ public class CheckoutActivity extends AppCompatActivity {
             }
         });
 
-
+        cusiRazonProceedButton.setOnClickListener(v -> {
+            Intent cusiRazonConfirmationIntent = new Intent(CheckoutActivity.this, ConfirmationActivity.class);
+            cusiRazonConfirmationIntent.putExtra("referenceId", cusiRazonOrderReferenceId);
+            startActivity(cusiRazonConfirmationIntent);
+        });
     }
 }
