@@ -3,7 +3,9 @@ package com.example.c202cusirazonactivity4;
 import android.content.Intent;
 import android.os.Bundle;
 import android.widget.Button;
+import android.widget.EditText;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -25,6 +27,8 @@ public class CheckoutActivity extends AppCompatActivity {
 
         cusiRazonFirestore = FirebaseFirestore.getInstance();
         cusiRazonProceedButton = findViewById(R.id.cusiRazonProceedButton);
+        EditText cusiRazonCcvField = findViewById(R.id.cusiRazonCCV);
+        Button cusiRazonToMainButton = findViewById(R.id.cusiRazonMainButton);
 
         TextView cusiRazonFullname = findViewById(R.id.cusiRazonFullname);
         TextView cusiRazonAddress = findViewById(R.id.cusiRazonAddressDisplay);
@@ -60,9 +64,20 @@ public class CheckoutActivity extends AppCompatActivity {
         });
 
         cusiRazonProceedButton.setOnClickListener(v -> {
-            Intent cusiRazonConfirmationIntent = new Intent(CheckoutActivity.this, ConfirmationActivity.class);
-            cusiRazonConfirmationIntent.putExtra("referenceId", cusiRazonOrderReferenceId);
-            startActivity(cusiRazonConfirmationIntent);
+            int cusiRazonCvvCode = Integer.parseInt(String.valueOf(cusiRazonCcvField.getText()));
+            if (cusiRazonCvvCode == 456) {
+                Intent cusiRazonConfirmationIntent = new Intent(CheckoutActivity.this, ConfirmationActivity.class);
+                cusiRazonConfirmationIntent.putExtra("referenceId", cusiRazonOrderReferenceId);
+                startActivity(cusiRazonConfirmationIntent);
+
+            } else {
+                Toast.makeText(this, "Wrong CCV!", Toast.LENGTH_SHORT).show();
+            }
+        });
+
+        cusiRazonToMainButton.setOnClickListener(v -> {
+            Intent cusiRazonResetIntent = new Intent(CheckoutActivity.this, MainActivity.class);
+            startActivity(cusiRazonResetIntent);
         });
     }
 }

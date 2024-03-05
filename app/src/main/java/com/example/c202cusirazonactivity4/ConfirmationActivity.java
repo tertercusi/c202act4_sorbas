@@ -67,7 +67,7 @@ public class ConfirmationActivity extends AppCompatActivity {
                                 DocumentSnapshot cusiRazonUserData = userTask.getResult();
                                 StringBuilder cusiRazonMessageBuilder = new StringBuilder();
 
-                                cusiRazonMessageBuilder.append("Mr/Ms");
+                                cusiRazonMessageBuilder.append("Mr/Ms ");
 
                                 Object cusiRazonFirstName = cusiRazonUserData.get("firstName");
                                 cusiRazonMessageBuilder.append(cusiRazonFirstName);

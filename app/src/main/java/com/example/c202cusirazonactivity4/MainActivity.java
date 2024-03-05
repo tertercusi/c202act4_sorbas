@@ -65,6 +65,17 @@ public class MainActivity extends AppCompatActivity {
 
             startActivity(cusiRazonConfirmationIntent);
         });
+
+        cusiRazonRegisterButton.setOnClickListener(v -> {
+            FirebaseUser cusiRazonCurrentUser = cusiRazonAuth.getCurrentUser();
+            if (cusiRazonCurrentUser != null) {
+                cusiRazonAuth.signOut();
+
+            }
+
+            Intent cusiRazonLoginIntent = new Intent(MainActivity.this, LoginActivity.class);
+            startActivity(cusiRazonLoginIntent);
+        });
     }
 
     @Override
