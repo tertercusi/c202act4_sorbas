@@ -21,7 +21,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
-        android:id="@+id/cusiRazonUsername"
+        android:id="@+id/sorBasUsername"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="26dp"
@@ -34,7 +34,7 @@
         app:layout_constraintTop_toBottomOf="@+id/textView7" />
 
     <EditText
-        android:id="@+id/cusiRazonFirstName"
+        android:id="@+id/sorBasFirstName"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
@@ -44,10 +44,10 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/cusiRazonUsername" />
+        app:layout_constraintTop_toBottomOf="@+id/sorBasUsername" />
 
     <EditText
-        android:id="@+id/cusiRazonLastName"
+        android:id="@+id/sorBasLastName"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
@@ -57,10 +57,10 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/cusiRazonFirstName" />
+        app:layout_constraintTop_toBottomOf="@+id/sorBasFirstName" />
 
     <EditText
-        android:id="@+id/cusiRazonBirthdate"
+        android:id="@+id/sorBasBirthdate"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
@@ -70,10 +70,10 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/cusiRazonLastName" />
+        app:layout_constraintTop_toBottomOf="@+id/sorBasLastName" />
 
     <EditText
-        android:id="@+id/cusiRazonPassword"
+        android:id="@+id/sorBasPassword"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
@@ -83,10 +83,10 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/cusiRazonBirthdate" />
+        app:layout_constraintTop_toBottomOf="@+id/sorBasBirthdate" />
 
     <Button
-        android:id="@+id/cusiRazonRegisterDoneButton"
+        android:id="@+id/sorBasRegisterDoneButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="36dp"
@@ -94,10 +94,10 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/cusiRazonAddress" />
+        app:layout_constraintTop_toBottomOf="@+id/sorBasAddress" />
 
     <EditText
-        android:id="@+id/cusiRazonAddress"
+        android:id="@+id/sorBasAddress"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
@@ -107,6 +107,6 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/cusiRazonPassword" />
+        app:layout_constraintTop_toBottomOf="@+id/sorBasPassword" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

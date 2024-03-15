@@ -48,7 +48,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
-        android:id="@+id/cusiRazonBook1QuantityDisplay"
+        android:id="@+id/sorBasBook1QuantityDisplay"
         android:layout_width="39dp"
         android:layout_height="19dp"
         android:layout_marginStart="28dp"
@@ -59,7 +59,7 @@
         app:layout_constraintTop_toBottomOf="@+id/textView11" />
 
     <TextView
-        android:id="@+id/cusiRazonBook2QuantityDisplay"
+        android:id="@+id/sorBasBook2QuantityDisplay"
         android:layout_width="39dp"
         android:layout_height="20dp"
         android:layout_marginStart="28dp"
@@ -67,10 +67,10 @@
         android:text="0"
         android:textAlignment="center"
         app:layout_constraintStart_toEndOf="@+id/textView9"
-        app:layout_constraintTop_toBottomOf="@+id/cusiRazonBook1QuantityDisplay" />
+        app:layout_constraintTop_toBottomOf="@+id/sorBasBook1QuantityDisplay" />
 
     <TextView
-        android:id="@+id/cusiRazonBook3QuantityDisplay"
+        android:id="@+id/sorBasBook3QuantityDisplay"
         android:layout_width="39dp"
         android:layout_height="19dp"
         android:layout_marginStart="28dp"
@@ -78,7 +78,7 @@
         android:text="0"
         android:textAlignment="center"
         app:layout_constraintStart_toEndOf="@+id/textView10"
-        app:layout_constraintTop_toBottomOf="@+id/cusiRazonBook2QuantityDisplay" />
+        app:layout_constraintTop_toBottomOf="@+id/sorBasBook2QuantityDisplay" />
 
     <TextView
         android:id="@+id/textView15"
@@ -87,7 +87,7 @@
         android:layout_marginStart="36dp"
         android:layout_marginTop="84dp"
         android:text="----------------"
-        app:layout_constraintStart_toEndOf="@+id/cusiRazonBook1QuantityDisplay"
+        app:layout_constraintStart_toEndOf="@+id/sorBasBook1QuantityDisplay"
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
@@ -97,7 +97,7 @@
         android:layout_marginStart="36dp"
         android:layout_marginTop="24dp"
         android:text="----------------"
-        app:layout_constraintStart_toEndOf="@+id/cusiRazonBook2QuantityDisplay"
+        app:layout_constraintStart_toEndOf="@+id/sorBasBook2QuantityDisplay"
         app:layout_constraintTop_toBottomOf="@+id/textView15" />
 
     <TextView
@@ -107,7 +107,7 @@
         android:layout_marginStart="36dp"
         android:layout_marginTop="20dp"
         android:text="----------------"
-        app:layout_constraintStart_toEndOf="@+id/cusiRazonBook3QuantityDisplay"
+        app:layout_constraintStart_toEndOf="@+id/sorBasBook3QuantityDisplay"
         app:layout_constraintTop_toBottomOf="@+id/textView16" />
 
     <TextView
@@ -121,7 +121,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
-        android:id="@+id/cusiRazonBook1Subtotal"
+        android:id="@+id/sorBasBook1Subtotal"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="32dp"
@@ -131,54 +131,54 @@
         app:layout_constraintTop_toBottomOf="@+id/textView18" />
 
     <TextView
-        android:id="@+id/cusiRazonBook2Subtotal"
+        android:id="@+id/sorBasBook2Subtotal"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="24dp"
         android:layout_marginEnd="16dp"
         android:text="0"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/cusiRazonBook1Subtotal" />
+        app:layout_constraintTop_toBottomOf="@+id/sorBasBook1Subtotal" />
 
     <TextView
-        android:id="@+id/cusiRazonBook3Subtotal"
+        android:id="@+id/sorBasBook3Subtotal"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="24dp"
         android:layout_marginEnd="16dp"
         android:text="0"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/cusiRazonBook2Subtotal" />
+        app:layout_constraintTop_toBottomOf="@+id/sorBasBook2Subtotal" />
 
     <Button
-        android:id="@+id/cusiRazonCheckOutButton"
+        android:id="@+id/sorBasCheckOutButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="72dp"
         android:layout_marginEnd="16dp"
         android:text="Confirm"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/cusiRazonBook3Subtotal" />
+        app:layout_constraintTop_toBottomOf="@+id/sorBasBook3Subtotal" />
 
     <Button
-        android:id="@+id/cusiRazonConfirmRegisterButton"
+        android:id="@+id/sorBasConfirmRegisterButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="72dp"
         android:layout_marginEnd="44dp"
         android:text="Register"
-        app:layout_constraintEnd_toStartOf="@+id/cusiRazonCheckOutButton"
-        app:layout_constraintTop_toBottomOf="@+id/cusiRazonBook3Subtotal" />
+        app:layout_constraintEnd_toStartOf="@+id/sorBasCheckOutButton"
+        app:layout_constraintTop_toBottomOf="@+id/sorBasBook3Subtotal" />
 
     <TextView
-        android:id="@+id/cusiRazonTotal"
+        android:id="@+id/sorBasTotal"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="24dp"
         android:layout_marginEnd="16dp"
         android:text="0"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/cusiRazonBook3Subtotal" />
+        app:layout_constraintTop_toBottomOf="@+id/sorBasBook3Subtotal" />
 
     <TextView
         android:id="@+id/textView23"
@@ -187,6 +187,6 @@
         android:layout_marginTop="24dp"
         android:layout_marginEnd="32dp"
         android:text="Total Price:"
-        app:layout_constraintEnd_toStartOf="@+id/cusiRazonTotal"
-        app:layout_constraintTop_toBottomOf="@+id/cusiRazonBook3Subtotal" />
+        app:layout_constraintEnd_toStartOf="@+id/sorBasTotal"
+        app:layout_constraintTop_toBottomOf="@+id/sorBasBook3Subtotal" />
 </androidx.constraintlayout.widget.ConstraintLayout>

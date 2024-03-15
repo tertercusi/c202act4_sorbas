@@ -47,7 +47,7 @@
         app:layout_constraintTop_toBottomOf="@+id/textView" />
 
     <EditText
-        android:id="@+id/cusiRazonBook1Quantity"
+        android:id="@+id/sorBasBook1Quantity"
         android:layout_width="89dp"
         android:layout_height="41dp"
         android:layout_marginStart="88dp"
@@ -68,7 +68,7 @@
         app:layout_constraintTop_toBottomOf="@+id/textView4" />
 
     <EditText
-        android:id="@+id/cusiRazonBook2Quantity"
+        android:id="@+id/sorBasBook2Quantity"
         android:layout_width="89dp"
         android:layout_height="44dp"
         android:layout_marginStart="88dp"
@@ -76,7 +76,7 @@
         android:ems="10"
         android:inputType="text"
         app:layout_constraintStart_toEndOf="@+id/textView5"
-        app:layout_constraintTop_toBottomOf="@+id/cusiRazonBook1Quantity" />
+        app:layout_constraintTop_toBottomOf="@+id/sorBasBook1Quantity" />
 
     <TextView
         android:id="@+id/textView6"
@@ -89,7 +89,7 @@
         app:layout_constraintTop_toBottomOf="@+id/textView5" />
 
     <EditText
-        android:id="@+id/cusiRazonBook3Quantity"
+        android:id="@+id/sorBasBook3Quantity"
         android:layout_width="89dp"
         android:layout_height="44dp"
         android:layout_marginStart="88dp"
@@ -97,58 +97,58 @@
         android:ems="10"
         android:inputType="text"
         app:layout_constraintStart_toEndOf="@+id/textView6"
-        app:layout_constraintTop_toBottomOf="@+id/cusiRazonBook2Quantity" />
+        app:layout_constraintTop_toBottomOf="@+id/sorBasBook2Quantity" />
 
     <EditText
-        android:id="@+id/cusiRazonBook1Price"
+        android:id="@+id/sorBasBook1Price"
         android:layout_width="130dp"
         android:layout_height="42dp"
         android:layout_marginStart="28dp"
         android:layout_marginTop="16dp"
         android:ems="10"
         android:inputType="text"
-        app:layout_constraintStart_toEndOf="@+id/cusiRazonBook1Quantity"
+        app:layout_constraintStart_toEndOf="@+id/sorBasBook1Quantity"
         app:layout_constraintTop_toBottomOf="@+id/textView3" />
 
     <EditText
-        android:id="@+id/cusiRazonBook2Price"
+        android:id="@+id/sorBasBook2Price"
         android:layout_width="129dp"
         android:layout_height="45dp"
         android:layout_marginStart="28dp"
         android:layout_marginTop="16dp"
         android:ems="10"
         android:inputType="text"
-        app:layout_constraintStart_toEndOf="@+id/cusiRazonBook2Quantity"
-        app:layout_constraintTop_toBottomOf="@+id/cusiRazonBook1Price" />
+        app:layout_constraintStart_toEndOf="@+id/sorBasBook2Quantity"
+        app:layout_constraintTop_toBottomOf="@+id/sorBasBook1Price" />
 
     <EditText
-        android:id="@+id/cusiRazonBook3Price"
+        android:id="@+id/sorBasBook3Price"
         android:layout_width="129dp"
         android:layout_height="47dp"
         android:layout_marginStart="28dp"
         android:layout_marginTop="16dp"
         android:ems="10"
         android:inputType="text"
-        app:layout_constraintStart_toEndOf="@+id/cusiRazonBook3Quantity"
-        app:layout_constraintTop_toBottomOf="@+id/cusiRazonBook2Price" />
+        app:layout_constraintStart_toEndOf="@+id/sorBasBook3Quantity"
+        app:layout_constraintTop_toBottomOf="@+id/sorBasBook2Price" />
 
     <Button
-        android:id="@+id/cusiRazonNextButton"
+        android:id="@+id/sorBasNextButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="32dp"
         android:layout_marginEnd="16dp"
         android:text="Next"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/cusiRazonBook3Price" />
+        app:layout_constraintTop_toBottomOf="@+id/sorBasBook3Price" />
 
     <Button
-        android:id="@+id/cusiRazonRegisterButton"
+        android:id="@+id/sorBasRegisterButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="32dp"
         android:layout_marginEnd="32dp"
         android:text="Register"
-        app:layout_constraintEnd_toStartOf="@+id/cusiRazonNextButton"
-        app:layout_constraintTop_toBottomOf="@+id/cusiRazonBook3Quantity" />
+        app:layout_constraintEnd_toStartOf="@+id/sorBasNextButton"
+        app:layout_constraintTop_toBottomOf="@+id/sorBasBook3Quantity" />
 </androidx.constraintlayout.widget.ConstraintLayout>

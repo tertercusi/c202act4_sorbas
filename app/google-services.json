@@ -9,7 +9,26 @@
       "client_info": {
         "mobilesdk_app_id": "1:558235116472:android:5184d3e43a293d5e45654d",
         "android_client_info": {
-          "package_name": "com.example.c202cusirazonactivity4"
+          "package_name": "com.example.c202sorBasactivity4"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAZQrTcJyeeAZx9pW5HuU36c8CWpvPvbkw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:558235116472:android:e4dc29f9b32b843945654d",
+        "android_client_info": {
+          "package_name": "com.example.c202sorbasactivity4"
         }
       },
       "oauth_client": [],

@@ -4,11 +4,11 @@ plugins {
 }
 
 android {
-    namespace = "com.example.c202cusirazonactivity4"
+    namespace = "com.example.c202sorbasactivity4"
     compileSdk = 34
 
     defaultConfig {
-        applicationId = "com.example.c202cusirazonactivity4"
+        applicationId = "com.example.c202sorbasactivity4"
         minSdk = 25
         targetSdk = 34
         versionCode = 1

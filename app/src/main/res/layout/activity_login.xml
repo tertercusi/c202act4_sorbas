@@ -20,7 +20,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
-        android:id="@+id/cusiRazonLoginUsername"
+        android:id="@+id/sorBasLoginUsername"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="64dp"
@@ -33,7 +33,7 @@
         app:layout_constraintTop_toBottomOf="@+id/textView20" />
 
     <EditText
-        android:id="@+id/cusiRazonLoginPassword"
+        android:id="@+id/sorBasLoginPassword"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
@@ -43,25 +43,25 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/cusiRazonLoginUsername" />
+        app:layout_constraintTop_toBottomOf="@+id/sorBasLoginUsername" />
 
     <Button
-        android:id="@+id/cusiRazonLoginSignInButton"
+        android:id="@+id/sorBasLoginSignInButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="28dp"
         android:text="Login"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/cusiRazonLoginPassword" />
+        app:layout_constraintTop_toBottomOf="@+id/sorBasLoginPassword" />
 
     <Button
-        android:id="@+id/cusiRazonLoginRegisterButton"
+        android:id="@+id/sorBasLoginRegisterButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
         android:text="Register"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/cusiRazonLoginSignInButton" />
+        app:layout_constraintTop_toBottomOf="@+id/sorBasLoginSignInButton" />
 </androidx.constraintlayout.widget.ConstraintLayout>

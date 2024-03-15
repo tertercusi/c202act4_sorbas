@@ -8,10 +8,10 @@
             <InsightsFilterSettings>
               <option name="connection">
                 <ConnectionSetting>
-                  <option name="appId" value="com.example.c202cusirazonactivity4" />
-                  <option name="mobileSdkAppId" value="1:558235116472:android:5184d3e43a293d5e45654d" />
-                  <option name="projectId" value="appdevactivity4" />
-                  <option name="projectNumber" value="558235116472" />
+                  <option name="appId" value="PLACEHOLDER" />
+                  <option name="mobileSdkAppId" value="" />
+                  <option name="projectId" value="" />
+                  <option name="projectNumber" value="" />
                 </ConnectionSetting>
               </option>
               <option name="signal" value="SIGNAL_UNSPECIFIED" />

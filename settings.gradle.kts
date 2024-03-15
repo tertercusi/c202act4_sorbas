@@ -13,5 +13,5 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "C202CusiRazonActivity4"
+rootProject.name = "C202SorBasActivity4"
 include(":app")

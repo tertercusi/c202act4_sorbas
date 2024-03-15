@@ -28,7 +28,7 @@
         app:layout_constraintTop_toBottomOf="@+id/textView12" />
 
     <TextView
-        android:id="@+id/cusiRazonFullname"
+        android:id="@+id/sorBasFullname"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
@@ -48,14 +48,14 @@
         app:layout_constraintTop_toBottomOf="@+id/textView13" />
 
     <TextView
-        android:id="@+id/cusiRazonAddressDisplay"
+        android:id="@+id/sorBasAddressDisplay"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="20dp"
         android:layout_marginTop="16dp"
         android:text="Address"
         app:layout_constraintStart_toEndOf="@+id/textView19"
-        app:layout_constraintTop_toBottomOf="@+id/cusiRazonFullname" />
+        app:layout_constraintTop_toBottomOf="@+id/sorBasFullname" />
 
     <TextView
         android:id="@+id/textView21"
@@ -101,7 +101,7 @@
         app:layout_constraintTop_toBottomOf="@+id/textView12" />
 
     <EditText
-        android:id="@+id/cusiRazonCardNumber"
+        android:id="@+id/sorBasCardNumber"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="40dp"
@@ -113,7 +113,7 @@
         app:layout_constraintTop_toBottomOf="@+id/textView25" />
 
     <EditText
-        android:id="@+id/cusiRazonCardName"
+        android:id="@+id/sorBasCardName"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="40dp"
@@ -122,10 +122,10 @@
         android:hint="Name on the card"
         android:inputType="text"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/cusiRazonCardNumber" />
+        app:layout_constraintTop_toBottomOf="@+id/sorBasCardNumber" />
 
     <EditText
-        android:id="@+id/cusiRazonCCV"
+        android:id="@+id/sorBasCCV"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="40dp"
@@ -134,26 +134,26 @@
         android:hint="CCV"
         android:inputType="number"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/cusiRazonCardName" />
+        app:layout_constraintTop_toBottomOf="@+id/sorBasCardName" />
 
     <Button
-        android:id="@+id/cusiRazonMainButton"
+        android:id="@+id/sorBasMainButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="64dp"
         android:layout_marginTop="36dp"
         android:text="Go to Main"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/cusiRazonCCV" />
+        app:layout_constraintTop_toBottomOf="@+id/sorBasCCV" />
 
     <Button
-        android:id="@+id/cusiRazonProceedButton"
+        android:id="@+id/sorBasProceedButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="68dp"
         android:layout_marginTop="36dp"
         android:text="Proceed"
-        app:layout_constraintStart_toEndOf="@+id/cusiRazonMainButton"
-        app:layout_constraintTop_toBottomOf="@+id/cusiRazonCCV" />
+        app:layout_constraintStart_toEndOf="@+id/sorBasMainButton"
+        app:layout_constraintTop_toBottomOf="@+id/sorBasCCV" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
